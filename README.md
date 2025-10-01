@@ -23,7 +23,17 @@ yarn install
 4. Iniciar el Servidor de Desarrollonpm run dev
 # 
 yarn dev
-El proyecto estará disponible en http://localhost:5173/ (o el puerto que te indique Vite).💡 Características Destacadas1. Manejo de Estado y Lógica con Custom HooksLa aplicación utiliza un custom hook (useWeather.ts) para centralizar toda la lógica de obtención y manejo de errores de la API. Esto mantiene los componentes de la interfaz de usuario limpios y enfocados en la presentación.2. Tipado Estricto con TypeScriptTodos los datos (tanto el estado local como los parámetros de las funciones y las props de los componentes) están rigurosamente tipados. Esto asegura que los errores de tipo se detecten en tiempo de desarrollo.3. Validación de Datos (Zod)Para garantizar que los datos que provienen de la API externa (pi.openweathermap.org) tengan el formato esperado, se utiliza Zod. Esto previene crashes en la interfaz en caso de que la estructura de la respuesta de la API cambie inesperadamente.4. Estilos ModularesSe emplean CSS Modules (.module.css) para aplicar estilos específicos a cada componente, evitando la colisión global de nombres de clases.⚙️ Estructura del Proyectosrc/
+El proyecto estará disponible en http://localhost:5173/ (o el puerto que te indique Vite).
+💡 Características Destacadas1. 
+Manejo de Estado y Lógica con Custom HooksLa aplicación utiliza un custom hook (useWeather.ts) para centralizar toda la lógica de obtención y manejo de errores de la API. 
+Esto mantiene los componentes de la interfaz de usuario limpios y enfocados en la presentación.
+# 2. Tipado Estricto con TypeScriptTodos los datos (tanto el estado local como los parámetros de las funciones y las props de los componentes) están rigurosamente tipados. 
+Esto asegura que los errores de tipo se detecten en tiempo de desarrollo.
+# 3. Validación de Datos (Zod)Para garantizar que los datos que provienen de la API externa (pi.openweathermap.org) tengan el formato esperado, se utiliza Zod. 
+Esto previene crashes en la interfaz en caso de que la estructura de la respuesta de la API cambie inesperadamente.
+# 4. Estilos ModularesSe emplean CSS Modules (.module.css) para aplicar estilos específicos a cada componente, evitando la colisión global de nombres de clases.
+
+# ⚙️ Estructura del Proyectosrc/
 ├── components/
 │   ├── Form/         # Componente del formulario de búsqueda
 │   ├── WeatherCard/  # Componente para mostrar el clima
