@@ -1,5 +1,5 @@
 ☁️ Weather App - Buscador de Clima con React y TypeScript Bienvenido a la aplicación de búsqueda de clima, un proyecto moderno construido con React que utiliza TypeScript para la robustez del código y buenas prácticas de desarrollo.🛠️ Tecnologías Utilizadas
-# o Este proyecto fue desarrollado utilizando el siguiente stack:CategoríaTecnologíaUso en el ProyectoFrontendReactLibrería principal para la interfaz de usuario.
+Este proyecto fue desarrollado utilizando el siguiente stack:CategoríaTecnologíaUso en el ProyectoFrontendReactLibrería principal para la interfaz de usuario.
 Lenguaje TypeScript: Añade tipado estático, mejorando la detección de errores y la escalabilidad.
 Bundler Vite Entorno de desarrollo rápido y bundler para la compilación.
 EstilosCSS Modules
@@ -10,8 +10,8 @@ Zod Librería para la validación de esquemas en tiempo de ejecución (especialm
 "api.openweathermap.org" Fuente de datos para obtener la información climática actual.
 # o UI/UX
 Spinkit Componente Spinner ligero para mostrar estados de carga.
-# o 🚀 Instalación y UsoSigue estos pasos para configurar el proyecto localmente.Prerrequisitos Node.js (v18+) Una cuenta en OpenWeatherMap para obtener tu clave API.
-# o 
+# 🚀 Instalación y UsoSigue estos pasos para configurar el proyecto localmente.Prerrequisitos Node.js (v18+) Una cuenta en OpenWeatherMap para obtener tu clave API.
+#  
 1. Clonar el Repositoriogit clone <URL_DE_TU_REPOSITORIO>
 cd weather-app
 2. Instalación de Dependenciasnpm install
