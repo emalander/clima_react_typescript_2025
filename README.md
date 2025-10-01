@@ -38,7 +38,10 @@ cd weather-app
 # o
 yarn install
 3. Configuración de la Clave APICrea un archivo llamado .env en la raíz del proyecto y añade tu clave API de OpenWeatherMap:VITE_API_KEY="TU_CLAVE_AQUI"
-4. Iniciar el Servidor de Desarrollonpm run dev
+
+4. Iniciar el Servidor de Desarrollo
+
+npm run dev
 # o
 yarn dev
 El proyecto estará disponible en http://localhost:5173/ (o el puerto que te indique Vite).
