@@ -1,5 +1,39 @@
-☁️ Weather App - Buscador de Clima con React y TypeScriptBienvenido a la aplicación de búsqueda de clima, un proyecto moderno construido con React que utiliza TypeScript para la robustez del código y buenas prácticas de desarrollo.🛠️ Tecnologías UtilizadasEste proyecto fue desarrollado utilizando el siguiente stack:CategoríaTecnologíaUso en el ProyectoFrontendReactLibrería principal para la interfaz de usuario.LenguajeTypeScriptAñade tipado estático, mejorando la detección de errores y la escalabilidad.BundlerViteEntorno de desarrollo rápido y bundler para la compilación.EstilosCSS ModulesGestión de estilos locales para evitar conflictos de clases (.module.css).ValidaciónZodLibrería para la validación de esquemas en tiempo de ejecución (especialmente la data de la API).Efectos SecundariosCustom HooksLógica encapsulada para la gestión del fetch de datos (useWeather).APIpi.openweathermap.orgFuente de datos para obtener la información climática actual.UI/UXSpinkitComponente Spinner ligero para mostrar estados de carga.🚀 Instalación y UsoSigue estos pasos para configurar el proyecto localmente.PrerrequisitosNode.js (v18+)Una cuenta en OpenWeatherMap para obtener tu clave API.1. Clonar el Repositoriogit clone <URL_DE_TU_REPOSITORIO>
+☁️ Weather App - Buscador de Clima con React y TypeScript
+
+Bienvenido a la aplicación de búsqueda de clima, un proyecto moderno construido con React que utiliza TypeScript para la robustez del código y buenas prácticas de desarrollo.
+
+🛠️ Tecnologías UtilizadasEste proyecto fue desarrollado utilizando el siguiente stack:CategoríaTecnologíaUso en el Proyecto
+
+Frontend React Librería principal para la interfaz de usuario.
+
+Lenguaje TypeScript Añade tipado estático, mejorando la detección de errores y la escalabilidad.BundlerViteEntorno de desarrollo rápido y bundler para la compilación.
+
+Estilos CSS Modules
+
+Gestión de estilos locales para evitar conflictos de clases (.module.css).
+
+Validación Zod Librería para la validación de esquemas en tiempo de ejecución (especialmente la data de la API).
+
+Efectos SecundariosCustom HooksLógica encapsulada para la gestión del fetch de datos (useWeather).
+
+API
+
+api.openweathermap.orgFuente de datos para obtener la información climática actual.
+
+UI/UX
+
+Spinkit Componente Spinner ligero para mostrar estados de carga.
+
+🚀 Instalación y UsoSigue estos pasos para configurar el proyecto localmente.
+
+Prerrequisitos
+
+Node.js (v18+) Una cuenta en OpenWeatherMap para obtener tu clave API.
+
+1. Clonar el Repositoriogit clone <URL_DE_TU_REPOSITORIO>
+
 cd weather-app
+
 2. Instalación de Dependenciasnpm install
 # o
 yarn install
